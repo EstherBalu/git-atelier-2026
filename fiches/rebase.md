@@ -1,19 +1,19 @@
-# `git <commande>` en 10 lignes
+# `git rebase` en 10 lignes
 
-**À quoi ça sert** : une phrase.
+**À quoi ça sert** : Copier un les commits d'une branche sous une autre, perd l'historique des commits contrairement à merge mais l'évolution des commits est linéaire.
 
-**La forme courante** : `git <commande> [options] <argument>`
+**La forme courante** : `git rebase 'branche'`
 
 **Un exemple qu'on peut taper** (testé dans `git-carnet`) :
 
 ```bash
-git <commande> ...
+git rebase cuisson
 ```
 
 **Ce que ça affiche / ce que ça change** : une ou deux lignes.
 
-**Le piège** ⚠️ : une phrase.
+**Le piège** ⚠️ : rebase efface l'historique des commits, on perds leur ordre de création.
 
-**Commande voisine** : `git <autre>` – en quoi elle diffère.
+**Commande voisine** : `git merge` – permet également de fusionner deux branches, mais conserve l'historique. L'arbre es commits est cependant moins clair lorsque de nombreuses fusions sont réalisées.
 
-Auteur : Prénom Nom (`@identifiant-github`)
+Auteur : Rémi Fournier (`@FournierR-github`)
