@@ -6,4 +6,4 @@ Chaque PR ajoute sa fiche à la fin de la liste.
 
 <!-- - [`commande`](fiches/commande.md) – une ligne de résumé -->
 - [`show`](fiches/show.md) – afficher un commit, ou un fichier à un commit donné
-- [`rm`](fiches/rm.md)
+- [`rm`](fiches/rm.md) - effacer un fichier 
