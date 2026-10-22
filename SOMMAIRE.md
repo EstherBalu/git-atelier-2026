@@ -6,3 +6,4 @@ Chaque PR ajoute sa fiche à la fin de la liste.
 
 <!-- - [`commande`](fiches/commande.md) – une ligne de résumé -->
 - [`show`](fiches/show.md) – afficher un commit, ou un fichier à un commit donné
+- ['remote'](fiches//remote.md) - gérer les noms et les adresses des dépôts distants associés au dépôt local
